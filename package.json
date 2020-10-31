@@ -2,11 +2,19 @@
   "name": "projects",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./client/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./client/index.js"
   },
   "keywords": [],
-  "contributors": ["ffakira", "bewater"],
-  "license": "ISC"`
+  "contributors": [
+    "ffakira",
+    "bewater"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0"
+  }
 }
